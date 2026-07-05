@@ -1,0 +1,74 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f0f2f5;
+}
+
+#title{
+  border-radius: 5px;
+  background-color: rgb(233, 248, 236);
+  color: black;
+}
+
+#desc{
+  border-radius:5px solid black;
+  background-color: rgb(233, 248, 236);
+  color: black;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background: #103257;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#submit{
+  color: black;
+  background-color: rgb(84, 250, 28);
+  width: 80px;
+}
+
+.card {
+  background: rgb(244, 204, 129);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.status {
+  margin-top: 10px;
+  padding: 5px;
+  background: rgb(42, 204, 42);
+  color: rgb(245, 242, 243);
+  display: inline-block;
+}
+
+/* 🧹 CLEAR BUTTON (same style as your theme) */
+.clear-btn {
+  padding: 10px;
+  margin-top: 10px;
+  background: rgb(220, 26, 26);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+

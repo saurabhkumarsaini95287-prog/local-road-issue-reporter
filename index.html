@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Problem Reporter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚧 Report a Problem</h1>
+
+<form id="form">
+  <input type="text" id="title" placeholder="Problem Title" required>
+  
+  <textarea id="desc" placeholder="Description"></textarea>
+
+  <input type="file" id="image">
+
+  <button type="button" onclick="getLocation()">📡 Get Location</button>
+  <p id="locationText"></p>
+
+  <button type="submit" id="submit">Submit</button>
+</form>
+
+<h2>Reported Problems</h2>
+
+<!-- 🧹 CLEAR BUTTON ADDED -->
+<button onclick="clearProblems()" class="clear-btn">
+  🧹 Clear All Problems
+</button>
+
+<!-- LIST SHOW AREA -->
+<div id="list"></div>
+
+<script type="module" src="javascrit.js"></script>
+</body>
+</html>
