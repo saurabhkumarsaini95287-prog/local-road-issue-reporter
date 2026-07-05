@@ -14,7 +14,7 @@ A frontend web application to report and track local road problems like potholes
 
 ## 📷 Project Screenshot
 
-![Project Screenshot](Screenshot/screenshot.png)
+![Project Screenshot](Screenshot/Screenshot.png)
 
 ## 🚀 How to Use
 1. Open index.html
